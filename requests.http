@@ -10,3 +10,6 @@ content-type: application/json
   "artist": "Elton John/Dua Lipa",
   "year": 2021
 }
+
+###
+GET http://localhost:3000/songs/5.json
