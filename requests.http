@@ -1,1 +1,12 @@
 GET http://localhost:3000/songs
+
+###
+POST http://localhost:3000/songs.json
+content-type: application/json
+
+{
+  "title": "Cold Heart",
+  "album": "Single",
+  "artist": "Elton John/Dua Lipa",
+  "year": 2021
+}
