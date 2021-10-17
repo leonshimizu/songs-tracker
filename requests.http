@@ -24,3 +24,6 @@ content-type: application/json
   "artist": "Justin Bieber/The Kid LAROI",
   "year": 2021
 }
+
+###
+DELETE http://localhost:3000/songs/3.json
