@@ -13,3 +13,14 @@ content-type: application/json
 
 ###
 GET http://localhost:3000/songs/5.json
+
+###
+PATCH http://localhost:3000/songs/5.json
+content-type: application/json
+
+{
+  "title": "Stay",
+  "album": "Single",
+  "artist": "Justin Bieber/The Kid LAROI",
+  "year": 2021
+}
